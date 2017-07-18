@@ -4,4 +4,4 @@ jdk:
 sudo: false # faster builds
 
 script: 
-- ./String-Sorting/mvn clean install
+mvn clean install: cd String-Sorting
