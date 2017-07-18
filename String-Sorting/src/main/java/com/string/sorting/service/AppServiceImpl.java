@@ -19,7 +19,7 @@ import org.apache.log4j.Logger;
  * Implementation class for AppService Interface
  */
 public class AppServiceImpl implements AppService {
-
+	//Regex pattern for splitting
 	private static final String REGEX = ", ";
 	static final Logger logger = Logger.getLogger(ApplicationController.class);
 
