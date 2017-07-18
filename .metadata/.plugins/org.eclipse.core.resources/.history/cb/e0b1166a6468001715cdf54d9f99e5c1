@@ -1,0 +1,13 @@
+package com.string.sorting.controller;
+
+public class ApplicationController {
+	
+	/*
+	 * Method to read file
+	 * 
+	 * */
+	protected void getFile() {
+		
+	}
+
+}

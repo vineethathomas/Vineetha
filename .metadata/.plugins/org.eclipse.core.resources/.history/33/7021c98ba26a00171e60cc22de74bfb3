@@ -1,0 +1,10 @@
+package com.string.sorting.service;
+
+import java.util.List;
+
+
+public interface SortService {
+	
+	List<Name> sortByLastName(List<Name> names);
+
+}

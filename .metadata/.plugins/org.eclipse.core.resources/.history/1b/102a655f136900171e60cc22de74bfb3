@@ -1,0 +1,9 @@
+package com.string.sorting.controller;
+
+import com.string.sorting.service.SortServiceImpl;
+
+class FactoryClass{
+	public ApplicationController createMyController() {
+		return new ApplicationController(new SortServiceImpl());
+	}
+}

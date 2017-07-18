@@ -1,0 +1,19 @@
+package com.string.sorting.controller;
+
+import java.io.File;
+
+public class ApplicationController {
+	
+	/*
+	 * Method to read file
+	 * 
+	 * */
+	protected void getFile() {
+		 // Getting ClassLoader obj
+		   ClassLoader classLoader = this.getClass().getClassLoader();
+		   // Getting resource(File) from class loader
+		   File configFile=new File(classLoader.getResource("names.txt").getFile());
+		
+	}
+
+}
