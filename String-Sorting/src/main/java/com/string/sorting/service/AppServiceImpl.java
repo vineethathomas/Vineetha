@@ -83,7 +83,7 @@ public class AppServiceImpl implements AppService {
 
 		try {
 			String newFileName = fileName.split(".txt")[0]+"-sorted.txt";
-			File file = new File(":\\"+newFileName);
+			File file = new File(newFileName);
 			Path filePath = Paths.get(file.getName());
 			List<String> names = new ArrayList<String>();
 			for(Name name: sortedNames){

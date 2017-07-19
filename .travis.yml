@@ -4,4 +4,5 @@ jdk:
 sudo: false # faster builds
 
 script:
-- mvn clean install
+   - cd String-Sorting
+   - mvn clean install
