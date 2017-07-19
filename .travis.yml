@@ -3,4 +3,6 @@ jdk:
   - oraclejdk8
 sudo: false # faster builds
 
-mvn clean install: cd String-Sorting
+script:
+   - cd String-Sorting
+   - mvn clean install
